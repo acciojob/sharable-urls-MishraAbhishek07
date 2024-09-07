@@ -10,13 +10,13 @@ button.addEventListener("click",function(){
    let name = encodeURIComponent(nameInput.value.trim());  
    let year = encodeURIComponent(yearInput.value.trim());
 
- if(name.value==""&&year.value==""){
-	document.getElementById("ur1").innerHTML=`https://localhost:8080/?`
+ if(nameInput.value==""&&yearInput.value==""){
+	document.getElementById("ur1").innerHTML=`khttps://localhost:8080/?`
    
- } else if(name.value!==""&&year.value==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=${name}`
+ } else if(nameInput.value!==""&&yearInput.value==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=${name}`
 
-}  else if(year.value!==""&&name.value==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=year=${year}`}
-else if(year.value!==""&&name.value!==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=${name}&year=${year}`}
+}  else if(yearInput.value!==""&&nameInput.value==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=year=${year}`}
+else if(yearInput.value!==""&&nameInput.value!==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=${name}&year=${year}`}
 
 
 
