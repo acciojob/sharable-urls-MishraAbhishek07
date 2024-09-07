@@ -11,7 +11,7 @@ button.addEventListener("click",function(){
    let year = encodeURIComponent(yearInput.value.trim());
 
  if(nameInput.value==""&&yearInput.value==""){
-	document.getElementById("ur1").innerHTML=`khttps://localhost:8080/?`
+	document.getElementById("ur1").innerHTML=`https://localhost:8080/?`
    
  } else if(nameInput.value!==""&&yearInput.value==''){document.getElementById("ur1").innerHTML=`https://localhost:8080/?name=${name}`
 
