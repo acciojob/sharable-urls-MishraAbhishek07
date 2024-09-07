@@ -5,7 +5,7 @@ let button=document.getElementById("button");
 
 
 button.addEventListener("click",function(){
-   let name = encodeURIComponent(nameInput.value.trim());  // Encode and trim whitespace
+   let name = encodeURIComponent(nameInput.value.trim());  
    let year = encodeURIComponent(yearInput.value.trim());
 
    if(name.value==""&&year.value==""){
