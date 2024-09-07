@@ -1,6 +1,6 @@
 // your code here
-let name=document.getElementById("name");
-let year=document.getElementById("year");
+let nameInput=document.getElementById("name");
+let yearInput=document.getElementById("year");
 let button=document.getElementById("button");
  const urlElement = document.getElementById('url');
 
