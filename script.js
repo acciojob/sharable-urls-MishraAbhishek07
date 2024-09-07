@@ -8,7 +8,7 @@ let button=document.getElementById("button");
 
 button.addEventListener("click",function(){
    let name = encodeURIComponent(nameInput.value.trim());  
-   let year = encodeURIComponent(yearInput.value.trim();
+   let year = encodeURIComponent(yearInput.value.trim());
 
  if(nameInput.value==""&&yearInput.value==""){
 	document.getElementById("ur1").innerHTML=`https://localhost:8080/?`
